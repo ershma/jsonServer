@@ -1,1 +1,38 @@
-# jsonServer
+[
+  {
+    "DialogTitle": "User1",
+    "UserName": "UserName",
+    "LastMessage": "laudantium enim quasi est quidem magnam vol",
+    "GetMessages": [
+      {
+        "Text": "Message 1 from User1",
+        "Time": "18:30",
+        "IsMine": false
+      }
+    ]
+  },
+  {
+    "DialogTitle": "User2",
+    "UserName": "UserName",
+    "LastMessage": "laudantium enim quasi est quidem magnam vol",
+    "GetMessages": [
+      {
+        "Text": "Message 1 from User2",
+        "Time": "18:30",
+        "IsMine": false
+      }
+    ]
+  },
+  {
+    "DialogTitle": "User3",
+    "UserName": "UserName",
+    "LastMessage": "laudantium enim quasi est quidem magnam vol",
+    "GetMessages": [
+      {
+        "Text": "Message 1 from User3",
+        "Time": "18:30",
+        "IsMine": false
+      }
+    ]
+  }
+]
