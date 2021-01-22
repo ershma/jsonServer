@@ -1,38 +1,31 @@
-[
-  {
-    "DialogTitle": "User1",
-    "UserName": "UserName",
-    "LastMessage": "laudantium enim quasi est quidem magnam vol",
-    "GetMessages": [
-      {
-        "Text": "Message 1 from User1",
-        "Time": "18:30",
-        "IsMine": false
-      }
-    ]
-  },
-  {
-    "DialogTitle": "User2",
-    "UserName": "UserName",
-    "LastMessage": "laudantium enim quasi est quidem magnam vol",
-    "GetMessages": [
-      {
-        "Text": "Message 1 from User2",
-        "Time": "18:30",
-        "IsMine": false
-      }
-    ]
-  },
-  {
-    "DialogTitle": "User3",
-    "UserName": "UserName",
-    "LastMessage": "laudantium enim quasi est quidem magnam vol",
-    "GetMessages": [
-      {
-        "Text": "Message 1 from User3",
-        "Time": "18:30",
-        "IsMine": false
-      }
-    ]
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
-]
+}
